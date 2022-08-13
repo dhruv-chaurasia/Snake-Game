@@ -55,6 +55,7 @@ function gameEngine()
         inputDir = {x:0, y:0};
         score=0;
         alert("Game Over! Press any key to play again.");
+        flag=0;
         snakeArray = [{x:13,y:15}];
         spfood =[];
         // gameMusic.play();
